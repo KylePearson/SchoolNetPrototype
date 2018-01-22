@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolNetPrototype", "SchoolNetPrototype\SchoolNetPrototype.csproj", "{AD90C609-D845-4B35-8093-B9A655D8D784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD90C609-D845-4B35-8093-B9A655D8D784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD90C609-D845-4B35-8093-B9A655D8D784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD90C609-D845-4B35-8093-B9A655D8D784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD90C609-D845-4B35-8093-B9A655D8D784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17CF9389-055F-4B30-A76E-394A421150CF}
+	EndGlobalSection
+EndGlobal
