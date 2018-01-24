@@ -1,0 +1,110 @@
+﻿
+<h1>View Question Item</h1>
+
+<p></p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h3>Filters</h3>
+    </div>
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="dropdown col-md-3">
+                <label>Year group:</label>
+            </div>
+            <div class="dropdown col-md-3">
+                <label>Steps:</label>
+            </div>
+            <div class="dropdown col-md-3">
+                <label>Question type:</label>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="dropdown col-md-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    All years
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Year 7 (KS3)</a></li>
+                    <li><a href="#">Year 8 (KS3)</a></li>
+                    <li><a href="#">Year 9 (KS3)</a></li>
+                    <li><a href="#">Year 9 (GCSE)</a></li>
+                    <li><a href="#">Year 10 (GCSE)</a></li>
+                    <li><a href="#">Year 11 (GCSE)</a></li>                                        
+                </ul>
+            </div>
+
+            <div class="dropdown col-md-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    All steps
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">1st</a></li>
+                    <li><a href="#">2nd</a></li>
+                    <li><a href="#">3rd</a></li>
+                    <li><a href="#">4th</a></li>
+                    <li><a href="#">5th</a></li>
+                    <li><a href="#">6th</a></li>
+                    <li><a href="#">7th</a></li>
+                    <li><a href="#">8th</a></li>
+                    <li><a href="#">9th</a></li>
+                    <li><a href="#">10th</a></li>
+                    <li><a href="#">11th</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown col-md-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    All question type
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Multiple choice</a></li>
+                    <li><a href="#">Short answer</a></li>
+                    <li><a href="#">Long answer</a></li>
+                    <li><a href="#">Other</a></li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">Question Items</div>
+    <div class="panel-body">
+        <p>Results from SchoolNet</p>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    First
+                </th>
+                <th>
+                    Second
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>value1</td>
+                <td>value2</td>
+            </tr>
+            <tr>
+                <td>value3</td>
+                <td>value4</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

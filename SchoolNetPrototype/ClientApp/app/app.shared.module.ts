@@ -9,6 +9,9 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { CreateAssessmentComponent } from './components/assessment/create/create.component';
+import { ViewAssessmentComponent } from './components/assessment/view/view.component';
+import { ViewQuestionsComponent } from './components/questionitem/viewquestion/viewquestion.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +19,10 @@ import { CounterComponent } from './components/counter/counter.component';
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
-        HomeComponent
+        HomeComponent,
+        CreateAssessmentComponent,
+        ViewAssessmentComponent,
+        ViewQuestionsComponent
     ],
     imports: [
         CommonModule,
@@ -27,6 +33,9 @@ import { CounterComponent } from './components/counter/counter.component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
+            { path: 'create', component: CreateAssessmentComponent },
+            { path: 'view', component: ViewAssessmentComponent },
+            { path: 'viewquestion', component: ViewQuestionsComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]
